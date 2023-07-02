@@ -1,0 +1,185 @@
+/*SELECTORES*/
+
+:root{
+    --font-family: comic;
+    --header-color: rgb(39, 55, 77);
+    --jumbotron-color: rgb(39, 55, 77);
+    --footer-color: rgb(39, 55, 77);
+    
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+header{
+    background-color: var(--header-color);
+    display: flex ;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid;border-color: black;
+}
+.header-oi{
+
+    display: flex;
+    list-style: none;
+}
+.informacion{
+    font-size: 30px;
+    margin-right: 20px;
+   
+    }
+.contactanos{
+    height: 40px;
+    border: 2px solid; color: rgb(60, 64, 72);
+    background-color:  rgb(218, 255, 251);
+    border-radius: 5px;
+    width: 50%;
+    font-size: 16px;
+   
+}
+.logo{
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.enviar {
+    height: 45px;
+    border-radius: 10px;
+    width: 80px;
+    font-style: oblique;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    border: whitesmoke;
+    margin-bottom: 20px;
+     
+
+
+}
+.contact{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://undergroundlab.es/wp-content/uploads/2019/01/Bater%C3%ADa.png) ;
+    color:white;
+    font-size: 29px;
+    background-color: transparent;
+    
+
+}
+
+.catalogo{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: auto;
+}
+
+.articulo1{
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 200px;
+    border-radius: 5px;
+   
+ 
+}
+.articulo2{
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+   
+    
+   
+}
+.articulo3{
+    height: 250px;
+    margin-left: 150px;
+    margin-top: 200px;
+    border-radius: 5px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+    font-size: large ;
+    width: auto;
+    font-style: italic;
+    
+}
+
+.iniciocatalogo{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.info1{
+    border: 2px solid; color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 80px;
+   
+}
+.info2{
+    border: 2px solid; color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 80px;
+    
+}
+.info3{
+    border: 2px solid; color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    
+}
+
+.articulo1{
+    margin-top: 30px;
+}
+.articulo2{
+    margin-top: 30px;
+}
+.articulo3{
+    margin-top: 30px;
+}
+
+footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--footer-color) ; 
+    margin-top: 50px;
+    color: white;
+    
+
+
+}
+.footer{
+    margin-right: 200px;
+
+
+}
